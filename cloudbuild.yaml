@@ -10,4 +10,4 @@ steps:
   entrypoint: gcloud
   args: ['run', 'deploy', '$flaskhelloworld', '--image', 'gcr.io/$pure-loop-347420/$flaskhelloworld', '--region', 'us-central1', '--platform', 'managed','--port','80']
 images:
-- gcr.io/$pure-loop-347420/$flaskhelloworld
+- gcr.io/pure-loop-347420/flaskhelloworld
